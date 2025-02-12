@@ -1,22 +1,122 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=18168925)
-# Github Campus Expert 
+# Informe
+### Requisitos
 
-- Nombre 
-- Apellidos 
-- aluXXXX
+- [x] Rellenado cuestionario GitHub-Alu
 
-## Rellenar el cuestionario GitHub-Alu del campus virtual y recibir el correo confirmándolo
+- [x] El nombre del equipo es correcto
 
-![correo de confirmacion del cuestionario](docs/correo_cuestionario.png)
+- [x] Solicitado Backpack
 
-## Crear equipo con nombre correcto
+- [x] Kanban Board project creado
 
-![equipo](docs/equipo.png)
+- [x] Informe realizado mostrando que domina markdown de forma eficiente: Usa imágenes, enlaces, listas, etc.
 
-## Crear un project board kanban para este repositorio
+- [x] Ha entregado el .zip en el campus con el repo
 
-![project board kanban](docs/project_board.png)
 
-## Solicitar el GitHub Backpack
+### Primeros pasos en markdown
 
-![github backpack](docs/backpack.png)
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### [[Primera nota. Markdown|Header 6 con enlaze]]
+###### Header 6
+
+#externo/etiqueta 
+
+Una #externo/etiqueta en una frase
+
+---
+
+texto normal
+==texto subrayado==
+**texto negrita**
+*texto italic*
+~~texto tachado~~
+<u>texto underlined</u>
+texto normal
+
+[[nota que no existe]]
+[[Primera nota. Markdown|nota que existe]]
+[Link externo](https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/2)
+
+###### Titulo STOP
+---
+- a1 - bullet point
+	- b
+		- c
+			- d
+				- e
+- a2
+- a3
+
+1. num 1 - listas numeradas
+	1. num 1.1
+		1. num 1.1.1
+	2. num 1.2
+2. a
+3. a
+
+
+%% Esto es un comentario de Obsidian que no se verá en **Reading view** %%
+
+**Código**
+Código en una:  `línea`
+Código de varias lineas:
+```cpp
+if (x < 1) {
+ cout << "x < 1" << endl;  
+} else if (x > 1) { 
+ cout << "x > 1" << endl;  
+}
+```
+
+> **Cita**
+> texto
+
+>[!quote] Cita callout
+>texto
+
+---
+
+**Callouts** 
+Nomenclatura: `>[!info]- título`
+ 
+> [!note]- Callout 
+> Here's a callout block.
+> It supports **markdown** and [[Callouts|wikilinks]]
+> 
+> - En un callout puede ir otro dentro
+> ![[Callouts]]
+
+---
+
+Lorem ipsum dolor sit amet consectetur adipiscing elit, justo etiam integer duis magnis sem volutpat, commodo enim nunc habitant faucibus pulvinar. Gravida litora condimentum magnis curabitur ac vitae blandit, convallis id facilisis porta conubia accumsan. Nibh parturient hendrerit porttitor natoque scelerisque blandit, sollicitudin rhoncus ante potenti hac, cursus pretium lacus leo placerat. ^bloqueRef
+
+
+**Nota a pie de página**[^1]
+
+**Embed de un título** 
+![[#Header 6]]
+
+
+**Embed de un bloque de texto**
+![[#^bloqueRef]]
+
+**Tabla** 
+(tienes que dejar un espacio entre la tabla y la linea de arriba para que renderice bien)
+
+| t1  | t2  | t3  |
+| --- | --- | --- |
+| c1  | c2  |     |
+|     |     | c6  |
+|     |     |     |
+
+
+**Embbed de una imagen**
+![|300](https://i.imgur.com/Av7BtHV.png)
+
+---
+[^1]: meaningful!
