@@ -23,7 +23,7 @@
 ##### Header 5
 ###### Header 6
 
-![](https://imgur.com/a/kqd59fF)
+![](https://i.imgur.com/aZ6mNN2.png)
 
 texto normal
 
