@@ -13,6 +13,7 @@
 
 - [x] Ha entregado el .zip en el campus con el repo
 
+![](https://i.imgur.com/6t4o4VJ.png)
 
 ### Primeros pasos en markdown
 
@@ -23,7 +24,6 @@
 ##### Header 5
 ###### Header 6
 
-![](https://i.imgur.com/aZ6mNN2.png)
 
 texto normal
 
