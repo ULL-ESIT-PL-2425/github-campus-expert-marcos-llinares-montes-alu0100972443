@@ -24,18 +24,15 @@
 ###### [[Primera nota. Markdown|Header 6 con enlaze]]
 ###### Header 6
 
-#externo/etiqueta 
 
 Una #externo/etiqueta en una frase
 
 ---
 
 texto normal
-==texto subrayado==
 **texto negrita**
 *texto italic*
 ~~texto tachado~~
-<u>texto underlined</u>
 texto normal
 
 [[nota que no existe]]
@@ -76,34 +73,10 @@ if (x < 1) {
 > **Cita**
 > texto
 
->[!quote] Cita callout
->texto
-
 ---
-
-**Callouts** 
-Nomenclatura: `>[!info]- título`
- 
-> [!note]- Callout 
-> Here's a callout block.
-> It supports **markdown** and [[Callouts|wikilinks]]
-> 
-> - En un callout puede ir otro dentro
-> ![[Callouts]]
-
----
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit, justo etiam integer duis magnis sem volutpat, commodo enim nunc habitant faucibus pulvinar. Gravida litora condimentum magnis curabitur ac vitae blandit, convallis id facilisis porta conubia accumsan. Nibh parturient hendrerit porttitor natoque scelerisque blandit, sollicitudin rhoncus ante potenti hac, cursus pretium lacus leo placerat. ^bloqueRef
 
 
 **Nota a pie de página**[^1]
-
-**Embed de un título** 
-![[#Header 6]]
-
-
-**Embed de un bloque de texto**
-![[#^bloqueRef]]
 
 **Tabla** 
 (tienes que dejar un espacio entre la tabla y la linea de arriba para que renderice bien)
