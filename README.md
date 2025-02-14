@@ -21,11 +21,8 @@
 ### Header 3
 #### Header 4
 ##### Header 5
-###### [[Primera nota. Markdown|Header 6 con enlaze]]
 ###### Header 6
 
-
-Una #externo/etiqueta en una frase
 
 texto normal
 
@@ -36,10 +33,6 @@ texto normal
 ~~texto tachado~~
 
 texto normal
-
-[[nota que no existe]]
-
-[[README.md|nota que existe]]
 
 [Link externo](https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/2)
 
@@ -89,6 +82,6 @@ if (x < 1) {
 
 
 **Embbed de una imagen**
-![|300](https://i.imgur.com/Av7BtHV.png)
+![](https://i.imgur.com/Av7BtHV.png)
 
 [^1]: meaningful!
