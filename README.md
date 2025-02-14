@@ -27,20 +27,23 @@
 
 Una #externo/etiqueta en una frase
 
----
-
 texto normal
+
 **texto negrita**
+
 *texto italic*
+
 ~~texto tachado~~
+
 texto normal
 
 [[nota que no existe]]
-[[Primera nota. Markdown|nota que existe]]
+
+[[README.md|nota que existe]]
+
 [Link externo](https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/2)
 
-###### Titulo STOP
----
+
 - a1 - bullet point
 	- b
 		- c
@@ -73,9 +76,6 @@ if (x < 1) {
 > **Cita**
 > texto
 
----
-
-
 **Nota a pie de página**[^1]
 
 **Tabla** 
@@ -91,5 +91,4 @@ if (x < 1) {
 **Embbed de una imagen**
 ![|300](https://i.imgur.com/Av7BtHV.png)
 
----
 [^1]: meaningful!
