@@ -53,8 +53,6 @@ texto normal
 3. a
 
 
-%% Esto es un comentario de Obsidian que no se verá en **Reading view** %%
-
 **Código**
 Código en una:  `línea`
 Código de varias lineas:
@@ -82,6 +80,7 @@ if (x < 1) {
 
 
 **Embbed de una imagen**
+
 ![](https://i.imgur.com/Av7BtHV.png)
 
 [^1]: meaningful!
